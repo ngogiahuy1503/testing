@@ -1,0 +1,275 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	
+	margin: 0;
+	padding: 0;
+	line-height: 1.5em;
+	font-family: Verdana, Arial, san-serif;
+	font-size: 11px;
+	color:#000;
+	
+}
+h3{
+	color:#00F;
+	font-size:18px;
+}
+h4{
+	color:#F6C;
+	font-size:24px;
+}
+a:link
+{
+	text-decoration:none;
+	font-size:16px;
+}
+a:visited { 
+	color: #f5ea01; 
+	text-decoration: none; 
+	font-weight: bold; 
+} 
+a:active, a:hover { 
+	color:#0CC;
+	text-decoration:none; 
+}
+
+p {
+	margin: 0px;
+	padding: 0px;
+}
+
+.cleaner {
+	clear: both;
+	width: 100%;
+	height: 1px;
+	font-size: 1px;	
+}
+
+.cleaner_with_height {
+	clear: both;
+	width: 100%;
+	height: 30px;
+	font-size: 1px;	
+}
+
+.cleaner_with_divider {
+	clear: both;
+	width: 100%;
+	height: 1px;
+	font-size: 1px;	
+	padding: 10px 0 0 0;
+	margin: 0 0 10px 0;	
+	border-bottom: 1px dotted #B79742;
+}
+.header a{
+	text-decoration:none;
+	color:#000;
+	font-weight:bold;
+	font-size:14px;
+}
+#contain
+{
+	width::960px;
+	padding:30px 30px 30px 30px;
+	height:auto;
+	background-color:#C3F;
+	
+}
+#BG
+{
+	background-color:#FCC;
+	height:auto;
+}
+#contant
+{
+	clear: both;
+	width: 100%;
+}
+#iheader
+{
+	clear: both;
+	width:970px;
+	height:300px;
+	margin: 0 auto;
+	background: #CCC url(Vi%E1%BB%87t%20Anh%20Mobile%20-%20H%E1%BB%87%20th%E1%BB%91ng%20b%C3%A1n%20l%E1%BA%BB%20Smartphone%20ch%C3%ADnh%20h%C3%A3ng_files/banner-center-4.jpg) top center no-repeat;
+}
+
+#imenu
+{
+	width:970px;
+	height:51px;
+	background:#003;
+	margin-bottom:10px;
+	margin: 0 auto;
+	
+}
+#icontent
+{   
+	clear: both;
+	width: 970px;
+	margin:auto;
+	background-color:#CCC;
+
+}
+#tintuc
+{
+	height:auto;
+	background-color:#FFF;
+	margin: 10px 10px 10px 10px;
+
+}
+
+
+
+#left
+{
+	float: left;
+	width: 18%;
+	border: 1px solid #846f34;
+	background:#666;
+	margin-top:10px;
+}
+
+#dienthoai
+{
+	margin:5px 5px 5px 5px;
+	background:#FFF;
+	background-repeat:no-repeat;
+	margin:auto;
+		
+	
+}
+
+#middel
+{
+	height:auto;
+	float: right;
+	width:80%;
+	margin: 0 0 0 10px;
+	padding: 0;
+	background: #FFF;
+	margin-top:10px;
+
+	
+}
+#middel a
+{
+	font-size:30px;
+	color:#000;
+}
+
+#quangcao
+{
+	height:350px;
+	background-color:#999;
+	margin: 10px 10px 10px 10px;
+	background: center url(Vi%E1%BB%87t%20Anh%20Mobile%20-%20H%E1%BB%87%20th%E1%BB%91ng%20b%C3%A1n%20l%E1%BA%BB%20Smartphone%20ch%C3%ADnh%20h%C3%A3ng_files/%C4%91%E1%BA%B7t-h%C3%A0ng-tr%C6%B0%E1%BB%9Bc-iphone-6s.jpg);
+}
+
+#iquangcao
+{
+	
+	margin: 5px 5px 5px 5px;
+	background-color:#999;
+	height:250px;
+	
+}
+
+#qc
+{
+	
+	width:450px;
+	height:250px;
+	float:left;
+	background-image:url(Vi%E1%BB%87t%20Anh%20Mobile%20-%20H%E1%BB%87%20th%E1%BB%91ng%20b%C3%A1n%20l%E1%BA%BB%20Smartphone%20ch%C3%ADnh%20h%C3%A3ng_files/ip6-16g-gold-lock-cu.jpg);
+	background-repeat:no-repeat;
+	
+}
+
+
+#iqc
+{
+	width:300px;
+	height:250px;
+
+	float:right;
+	background-image:url(Vi%E1%BB%87t%20Anh%20Mobile%20-%20H%E1%BB%87%20th%E1%BB%91ng%20b%C3%A1n%20l%E1%BA%BB%20Smartphone%20ch%C3%ADnh%20h%C3%A3ng_files/3367_img1.jpg);
+		}
+		.c{
+	height: 35px;
+	color: #FFF; 
+	background-size: 300px;
+	line-height: 40px;
+	background;
+	background-repeat:no-repeat;
+}
+.sp
+{
+	height:auto;
+	float: left;
+	
+	width:25%;
+	height:300px;
+	margin: 10px 30px 20px 30px;
+	padding: 0;
+	background:#FFF;
+	margin-top:10px;
+}
+.hinh
+{
+	float:left;
+	clear:both;
+}
+.ten
+{
+	text-align:center;
+	font-size:15px;
+	
+}
+.gia
+{
+	text-align:center;
+	padding-top:5px;
+	font-size:15px;
+	clear:both;
+	with: 100%;
+	height:50px;
+}
+.chitiet
+{
+	text-align:center;
+	font-size:15px;
+	
+}
+.tintuc
+{
+	width:100%;
+	height:300px;
+	float:left;
+	clear:both;
+}
+.tieude
+{
+	width:100%;
+	height:50px;
+	font-size:30px;
+	text-align:left;
+	
+}
+.noidung
+{
+	width:100%
+	height:250px;
+}
+
+#footer
+{
+	width:100%;
+	height:65px;
+	background:#003;
+	margin-bottom:10px;
+	margin: 0 auto;
+	color:#FF0;
+	
+}

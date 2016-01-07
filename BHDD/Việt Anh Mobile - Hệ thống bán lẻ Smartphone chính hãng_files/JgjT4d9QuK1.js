@@ -1,0 +1,6 @@
+/*!CK:1865649668!*//*1445956466,*/
+
+if (self.CavalryLogger) { CavalryLogger.start_js(["nhrJV"]); }
+
+__d('Scrollable',['Event','Parent','Scroll','UserAgent_DEPRECATED'],function a(b,c,d,e,f,g,h,i,j,k){if(c.__markCompiled)c.__markCompiled();var l=function(event){var o=i.byClass(event.getTarget(),'scrollable');if(!o)return;if(typeof event.axis!=='undefined'&&event.axis===event.HORIZONTAL_AXIS||event.wheelDeltaX&&!event.wheelDeltaY||event.deltaX&&!event.deltaY)return;var p=event.wheelDelta||-event.deltaY||-event.detail,q=o.scrollHeight,r=o.clientHeight;if(q>r){var s=j.getTop(o);if(p>0&&s===0||p<0&&s>=q-r-1){event.prevent();}else if(k.ie()<9)if(o.currentStyle){var t=o.currentStyle.fontSize;if(t.indexOf('px')<0){var u=document.createElement('div');u.style.fontSize=t;u.style.height='1em';t=u.style.pixelHeight;}else t=parseInt(t,10);j.setTop(o,s-Math.round(p/120*t));event.prevent();}}},m=document.documentElement;if(k.firefox()){var n='WheelEvent' in window?'wheel':'DOMMouseScroll';m.addEventListener(n,l,false);}else h.listen(m,'mousewheel',l);},null);
+__d("XUFIDeleteCommentController",["XController"],function a(b,c,d,e,f,g){c.__markCompiled&&c.__markCompiled();f.exports=c("XController").create("\/ufi\/delete\/comment\/",{});},null,{});

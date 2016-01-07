@@ -1,0 +1,41 @@
+<?php
+	$masp=$_GET['masp'];
+	$p=$_GET['p'];
+	if(isset($_SESSION['giohang']))
+	{
+		if($p==1)
+		{
+			for($i=0;$i<count($_SESSION['giohang']);$i++)
+			{
+				if($_SESSION["giohang"][$i]["masp"]==$masp)
+				{
+					$_SESSION["giohang"][$i]["sl"]-=1;
+					if($_SESSION["giohang"][$i]["sl"]==0)
+					{
+						for($j=$i+1;$j<count($_SESSION['giohang']);$j++)
+						{
+							$_SESSION["giohang"][$i]=$_SESSION["giohang"][$j];
+						}
+						unset($_SESSION["giohang"][count($_SESSION['giohang'])-1]);
+					}
+					
+				}
+			}
+		}
+		if($p==0)
+		{
+			for($i=0;$i<count($_SESSION['giohang']);$i++)
+			{
+				if($_SESSION["giohang"][$i]["masp"]==$masp)
+				{
+					$_SESSION["giohang"][$i]["sl"]+=1;
+				}
+			}
+		}
+		if($p==2)
+		{
+			unset($_SESSION["giohang"]);
+		}
+	}
+	header("location:index.php?b=ctgh");
+?>
